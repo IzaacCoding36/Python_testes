@@ -2,7 +2,7 @@
 
 #Aqui tem as coisas que vamos precisar:
 
-coisas_acampamento = "tenda, sacos de dormir, água, café, faca, morangos, cabo ethernet, flash drive, marshmallows, escova de dentes, pasta, pão, suco, garrafa, jogos de tabuleiro."
+coisas_acampamento = "tenda, sacos de dormir, água, café, faca, morangos, cabo ethernet, flash drive, marshmallows, escova de dentes, pasta, pão, suco, garrafa, jogos de tabuleiro, toalha, cesta."
 
 #LISTA PYTHON
 
