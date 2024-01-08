@@ -4,7 +4,7 @@ print("Olá! Bem-vindo ao Café Necro!")
 
 nome = input("Qual é o seu nome?\n")
 
-if nome == "Necro" or "Zackcoding36":
+if nome == "Izaac" or "IzaacCoding36":
   print ("Opa, é bom ver você por aqui!")
 else:
  print("Olá " + nome + ", obrigado por vir aqui!\n\n\n")
