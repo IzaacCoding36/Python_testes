@@ -1,1 +1,0 @@
-Don't run these files on your terminal if you want your files safe, but, if you really want to test it, go ahead and make sure to learn how it works.
