@@ -1,12 +1,13 @@
 import re
 
+
 class ExtratorURL:
     def __init__(self, url):
         self.url = self.sanitiza_url(url)
         self.valida_url()
 
     def sanitiza_url(self, url):
-        if type(url) == str:
+        if isinstance(url, str):
             return url.strip()
         else:
             return ""
@@ -44,7 +45,9 @@ class ExtratorURL:
         return len(self.url)
 
     def __str__(self):
-        return self.url + "\n" + "Parâmetros: " + self.get_url_parametros() + "\n" + "URL Base: " + self.get_url_base()
+        return (self.url + "\n" + "Parâmetros: " +
+                self.get_url_parametros() + "\n" +
+                "URL Base: " + self.get_url_base())
 
     def __eq__(self, other):
         return self.url == other.url
